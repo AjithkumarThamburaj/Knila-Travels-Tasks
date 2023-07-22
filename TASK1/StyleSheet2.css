@@ -1,0 +1,400 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+   scroll-behaviour:smooth;
+}
+
+    html::-webkit-scrollbar {
+        background-color: transparent;
+        width: 0.6rem;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        background-color: #f07167;
+    }
+.scrollToTop {
+    display: none;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 4rem;
+    background-color: #f07167;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 2;
+    cursor: pointer;
+}
+
+    .scrollToTop i {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 90%;
+        font-size: 1.8rem;
+        color: white;
+    }
+
+
+.navbar {
+    margin: 0 160px;
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    background-color: #fcfbfb;
+   
+}
+.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+.menu {
+    width: 100%;
+    height: 32px;
+    display: flex;
+
+}
+.menu ul {
+    float: left;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: Arial;
+    font-weight: bold;
+    color: #1b2f5a;
+}
+
+ul li {
+    margin-left: 55px;
+    margin-top: 10px;
+    list-style: none;
+    color: #1b2f5a;
+    margin-top: 40px;
+}
+
+ul li a {
+     text-decoration: none;
+     list-style: none;
+     color: #1b2f5a;
+    
+    }
+
+ .destination .content .para {
+        color: #ff006e;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1px;
+        margin-top: 10px;
+        padding: 100px 180px 0 100px;
+        margin-left: 25px;
+    }
+.destination .content .title {
+    font-size: 45px;
+    text-transform:capitalize;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0 90px 0 120px;
+    font-weight:bold;
+    font-style:oblique;
+}
+
+.destination .content .description {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding: 0 0 0 120px;
+    font-style:italic;
+   
+}
+.last button {
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    color: chocolate;
+    border:outset;
+}
+.play button span {
+    margin-left: 120px;
+    margin-bottom: 5px;
+    color: chocolate;
+}
+.image img{
+    width:900px;
+    height: 600px;
+    object-fit: fill;
+    float:right;    
+}
+a, ul, li, p, h1, h2, h3, h4, h5, h6, span {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.services {
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 120px 0 120px;
+}
+
+.services .title {
+        font-size: 32px;
+    }
+
+.services .cards {
+        display: flex;
+        justify-content: space-between;
+        grid-column-gap: 64px;
+        margin-top: 32px;
+    }
+
+.services .cards .card {
+            height: 192px;
+            padding: 48px 16px;
+            display: flex;
+             align-items: center;
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 16px;
+        }
+
+ .services .cards .card .icon {
+            margin-bottom: 18px;
+           
+  }
+
+.services .cards .card .title {
+           margin-bottom: 10px;
+           font-size: 22px;
+            }
+
+ .services .cards .card p {
+          text-align: center;
+            }
+
+
+.places {
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 120px 0 120px;
+}
+    
+.places .title {
+    font-size: 32px;
+}
+
+.places .cards {
+    display: flex;
+    justify-content: space-between;
+    grid-column-gap: 64px;
+    margin-top: 32px;
+}
+
+.places .cards .card {
+        height: 102px;
+        padding: 8px 8px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
+    }
+ .places .cards .card .image img {
+        margin-bottom: 18px;
+        height: 250px;
+        width: 250px;
+        border-radius:10px;
+    }
+
+.places .cards .card .title {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.places .cards .card p {
+    text-align: center;
+}
+ .places .cards .content {
+        display: flex;
+        justify-content: space-between;
+        
+       margin:8px;
+        font-size:large;
+    }
+
+.places .cards .time {
+    display: flex;
+ 
+}
+
+ .places .cards .time i {
+        margin-right:20px;
+    }
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    padding: 0 120px 0 120px;
+}
+
+ .brands img { 
+     margin: 0 32px;
+     padding-top:150px;
+    }
+
+.subscribe {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(-225deg, #b6cee86e 0%, #8578f563 100%);
+    border-radius: 16px;
+    margin: 200px 200px;
+    margin-top: 48px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe .title {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 48px;
+        color: #523f75;
+    }
+
+.subscribe input {
+        border: none;
+        width: 320px;
+        border-radius: 4.8px;
+        padding: 19px 32px;
+        margin-right: 16px;
+    }
+
+.subscribe input:focus {
+            outline: none;
+        }
+
+.subscribe button {
+        background-color: #fa671c;
+        padding: 18px 48px;
+        border-radius:10px;
+    }
+
+footer {
+    margin: 100px 0 50px 30px;
+
+}
+
+footer .grid {  
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+ footer .grid .brand .logo {
+            color: #1b2f5a;
+            font-size: 48px;
+            font-family: "Zen Tokyo Zoo", cursive;
+            padding-right:40px;
+        }
+
+ footer .grid .brand .subTitle {
+        width: 80%;
+        padding-left: 40px;
+    }
+
+footer .grid .social {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-right:80px;
+           margin-right:50px; 
+        }
+
+ footer .grid .social .links {
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 22px;
+    }
+
+footer .grid .social .links .link {
+        height: 48px;
+        width: 48px;
+        margin: 0 16px;
+        border-radius: 100%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: -webkit-gradient(linear, left top, right top, from(#74ebd5), to(#9face6));
+        background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    }
+
+ footer .grid .social .links .link i {
+                        font-size: 21px;
+                    }
+
+footer .grid .social .app {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+footer .grid .social .app .title {
+                    margin-bottom: 11px;
+                    font-weight: 500;
+                }
+
+footer .grid .social .app .links {
+                    display: flex;
+                    gap: 16px;
+                }
+
+footer .grid .title {
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+footer .grid ul {
+            list-style-type: none;
+            font-family:'Times New Roman';
+        }
+
+footer .grid ul li {
+                margin: 16px 0;
+                font-family:'Times New Roman';
+            }
+
+footer span {
+        margin: 50px 50px 0 50px;
+        padding: 0 50px 0 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 23px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+
